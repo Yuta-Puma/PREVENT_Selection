@@ -77,6 +77,7 @@ def convert_date(date_str):
         print(f"Error: Could not parse date format: {date_str}")  # 原因を出力
         return 'Invalid date format'  # 変換できない場合
     return converted_date.strftime('%Y-%m-%d')
+```
 
 ### 手順 3: テストファイルを作成
 Google Colabのセル内で以下のコードを実行する。
