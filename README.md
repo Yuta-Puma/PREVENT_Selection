@@ -6,12 +6,12 @@ Pythonを用いて様々な日付のフォーマットを「yyyy-mm-dd」の日�
 - Python 3.10.12
 - 必要なライブラリ: `pandas`, `re`, `pytest`
 
-## 実行方法
+## 実行手順
 ### 手順 1: Google Colab を開く
 [Google Colab](https://colab.research.google.com/)からノートブックを新規作成する
 
 ### 手順 2: 日付変換をするコードのファイルを作成
-Google Colabのセル内で以下のコードを実行する。
+Google Colabのセル内に以下のコードをコピー&ペーストして実行する。
 ```python
 %%writefile date_converter.py
 import pandas as pd
