@@ -11,7 +11,7 @@ Pythonを用いて様々な日付のフォーマットを「yyyy-mm-dd」の日�
 [Google Colab](https://colab.research.google.com/)からノートブックを新規作成する
 
 ### 手順 2: 日付変換をするコードのファイルを作成
-Google Colabのセル内に以下のコードをコピー&ペーストして実行する。
+Google Colabのセル内に下記のコードをコピー&ペーストして実行する。
 ```python
 %%writefile date_converter.py
 import pandas as pd
@@ -80,7 +80,7 @@ def convert_date(date_str):
 ```
 
 ### 手順 3: テストファイルを作成
-Google Colabのセルを追加し、以下のコードを実行する。
+Google Colabのセルを追加し、下記のコードをコピー&ペーストして実行する。
 ```python
 %%writefile test_date_converter.py
 import pytest
@@ -96,7 +96,7 @@ def test_convert_date():
 ```
 
 ### 手順 4: pytestのインストールと実行
-Google Colabのセルを追加し、以下のコードを実行する。
+Google Colabのセルを追加し、下記のコードをコピー&ペーストして実行する。
 ```python
 !pip install pytest
 !pytest test_date_converter.py
