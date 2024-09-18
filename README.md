@@ -80,7 +80,7 @@ def convert_date(date_str):
 ```
 
 ### 手順 3: テストファイルを作成
-Google Colabのセル内で以下のコードを実行する。
+Google Colabのセルを追加し、以下のコードを実行する。
 ```python
 %%writefile test_date_converter.py
 import pytest
